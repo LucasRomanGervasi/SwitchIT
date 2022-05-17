@@ -1,11 +1,13 @@
 import React from "react";
-import style from "./Hogar.module.css"
+import style from "./InfoCardHogar.module.css"
 import  {BsArrowRight, BsHouseDoor} from "react-icons/bs";
 
-export  default function Hogar(){
+export  default function infoCardHogar(){
     return(
         <div className={style.containerHogar}>
+            <div className={style.containerTitulo}>
             <h1 className={style.titulo}>Hogar</h1>
+            </div>
             <div className={style.hogarUno}>
             <h2 className={style.titulo2}> ¿Buscás tener una casa inteligente? </h2>
             <p className={style.parrafo}> Nuestro objetivo es que tengas el control de todos los

@@ -5,28 +5,26 @@
     
 }
 .presentacion{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: initial;
-    margin-left: 100px;
-    margin-right: 100px;
+    justify-content: center;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 .titulo1{
     display: flex;
     color: black;
-    width: 100%;
-    align-items: flex-start;
+    width: 70%;
     font-size: 40px;
-    line-height: 15px;
+    line-height: 25px;
 }
 .titulo2{
     display: flex;
     color: rgb(20, 189, 189);
-    width: 100%;
-    align-items: flex-start;
-    font-size: 55px;
+    width: 70%;
+    text-align: left;
+    font-size: 50px;
     margin-bottom: 10px;
     margin-top: 0px;
 }
@@ -36,8 +34,9 @@
     justify-content: end;
     margin: 1rem 0 2rem;
     color: rgb(155, 155, 155);
-    font-size: 18px;
-    width: 100%;
+    font-size: 22px;
+    width: 70%;
+    text-align: left;
 }
 
 .presentacion2{
@@ -108,6 +107,6 @@
     box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
 }
 
-.containerHogar{
+.InfoCard{
     margin-top: 50px;
 }

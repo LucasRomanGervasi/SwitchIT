@@ -1,35 +1,42 @@
-.containerHogar{
-    background-color:  rgb(20, 189, 189);
+.containerInstituciones{
+    background-color: rgb(240, 34, 178);
     display: flex;
     flex-wrap: wrap;
+    padding: 40px 0 40px 0;
+    justify-content: space-evenly;
 }
-.hogarUno{
-    margin-left: 100px;
-    margin-right: 100px;
+.institucionesUno{
     width: 60%;
 }
-.titulo{
-    margin-left: 100px;
+.containerTitulo{
+    width: 80%;
+}
+.titulo{    
+    text-align: left;
     color: aliceblue;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     font-size: 60px;
     display: flex;
-    width: 100%;
+    width: 50%;
 }
 .titulo2{
     color: aliceblue;
     font-size: 30px;
+    text-align: left;
     display: flex;
+    width: 100%;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 .parrafo{
     flex-direction: initial;
-    color: rgb(211, 195, 195);
+    color: rgb(233, 223, 223);
     padding-bottom: 50px;
     font-size: 20px;
+    text-align: left;
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: flex-start;
 }
 .nombreListado{
@@ -42,14 +49,13 @@
     margin-top: 15px;
     margin-right: 10px;
 }
-.hogarDos{
-    margin-top: 30px;
+.institucionesDos{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 }
-.fotoHogar{
+.fotoInstituciones{
     display: flex;
     font-size: 120px;
     color: antiquewhite;
@@ -58,9 +64,7 @@
 .boton{
     font-size: 20px;
     flex-wrap: wrap;
-    color: rgb(20, 189, 189);
-    padding-left: 20px;
-    padding-right: 20px;
+    color: rgb(240, 34, 178);
     border-radius: 20px;
     background-color: aliceblue;
     justify-content: flex-end;
@@ -68,5 +72,6 @@
     margin-bottom: 40px;
     display: flex;
     align-items: center;
+    padding: 0 20px 0 20px;
 }
 

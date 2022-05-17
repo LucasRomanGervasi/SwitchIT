@@ -1,0 +1,78 @@
+.containerHogar{
+    background-color:  rgb(20, 189, 189);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0 40px 0;
+    justify-content: space-evenly;
+}
+.hogarUno{
+    width: 60%;
+}
+.containerTitulo{
+    width: 80%;
+}
+.titulo{
+    text-align: left;
+    color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-size: 60px;
+    display: flex;
+    width: 70%;
+}
+.titulo2{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    text-decoration: underline;
+}
+.parrafo{
+    flex-direction: initial;
+    color: rgb(233, 223, 223);
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.nombreListado{
+    display: flex;
+    color: aliceblue;
+    font-size: 25px;
+}
+.iconBall{
+    font-size: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.hogarDos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.fotoHogar{
+    display: flex;
+    font-size: 120px;
+    color: antiquewhite;
+    margin-bottom: 20px;
+}
+.boton{
+    font-size: 20px;
+    flex-wrap: wrap;
+    color: rgb(20, 189, 189);
+    border-radius: 20px;
+    background-color: aliceblue;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+

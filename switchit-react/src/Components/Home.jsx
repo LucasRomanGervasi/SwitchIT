@@ -3,14 +3,16 @@ import style from "./Home.module.css"
 import hogarFoto from "../assets/hogares.png"
 import institucionesFoto from "../assets/instituciones.png"
 import empresasFoto from "../assets/empresas.png"
-import Hogar from "./Servicios/Hogar"
+import Hogar from "./Servicios/InfoCardHogar"
+import Instituciones from "./Servicios/InfoCardInstituciones"
+import Empresas from "./Servicios/InfoCardEmpresas"
 
 export default function Home(){
     return(
         <div className={style.containerHome}>
             <div className={style.presentacion}>
             <h1 className={style.titulo1}> Nos dedicamos a </h1>
-            <h2 className={style.titulo2}> digitalizar marca </h2>
+            <h2 className={style.titulo2}> digitalizar marcas </h2>
             <p className={style.parrafo}> Brindamos un servicio integral de soluciones informáticas que, sumado al conocimiento a nuestra basta experiencia en 
              gestión de negocios, nos permite brindarte la solución que tu negocio necesita para adaptarse a este nuevo mundo 
                  empresarial y crecer orgánicamente. </p>
@@ -34,8 +36,10 @@ export default function Home(){
                 </div>
             </div>
             </div>
-            <div className={style.containerHogar}>
+            <div className={style.InfoCard}>
                 <Hogar/>
+                <Instituciones/>
+                <Empresas/>
             </div>
         </div>
     )
