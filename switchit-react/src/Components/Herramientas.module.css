@@ -1,10 +1,10 @@
 .containerHerramientas{
-    background-color: rgb(27, 27, 27);
+    background-color: #262626 ;
     padding-top: 50px;
     padding-bottom: 30px;
 }
 .titulo{
-    color: rgb(20, 189, 189);
+    color: #1DAFA5;
     font-size: 50px;
     margin-bottom: 30px;
 }
@@ -12,16 +12,16 @@
     margin: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .iconosPartners{
     margin: 30px;
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .icon{
     width: 100px;
-    margin: 10px;
+    margin: 30px;
     height: auto;
 }

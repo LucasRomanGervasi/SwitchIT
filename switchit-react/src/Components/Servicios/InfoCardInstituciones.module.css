@@ -1,5 +1,5 @@
 .containerInstituciones{
-    background-color: rgb(240, 34, 178);
+    background-color:  #DF4B86;
     display: flex;
     flex-wrap: wrap;
     padding: 40px 0 40px 0;
@@ -11,22 +11,21 @@
 .containerTitulo{
     width: 80%;
 }
-.titulo{    
+.titulo{
     text-align: left;
     color: aliceblue;
-    padding-top: 50px;
-    padding-bottom: 70px;
-    font-size: 60px;
+    padding-bottom: 40px;
+    font-size: 50px;
     display: flex;
-    width: 50%;
+    width: 85%;
 }
 .titulo2{
     color: aliceblue;
     font-size: 30px;
     text-align: left;
     display: flex;
-    width: 100%;
     margin-bottom: 10px;
+    width: 100%;
     text-decoration: underline;
 }
 .parrafo{
@@ -36,8 +35,8 @@
     font-size: 20px;
     text-align: left;
     display: flex;
-    width: 100%;
-    justify-content: flex-start;
+    width: 80%;
+    justify-content: center;
 }
 .nombreListado{
     display: flex;
@@ -54,17 +53,20 @@
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
+    padding-top: 50px;
 }
 .fotoInstituciones{
     display: flex;
-    font-size: 120px;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
     color: antiquewhite;
-    margin-bottom: 20px;
 }
 .boton{
     font-size: 20px;
     flex-wrap: wrap;
-    color: rgb(240, 34, 178);
+    color: #DF4B86;
     border-radius: 20px;
     background-color: aliceblue;
     justify-content: flex-end;
@@ -73,5 +75,7 @@
     display: flex;
     align-items: center;
     padding: 0 20px 0 20px;
+    margin-top: 20px;
 }
+
 

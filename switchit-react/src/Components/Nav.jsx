@@ -1,11 +1,12 @@
 import React from "react";
 import style from "./Nav.module.css"
+import logo from "../assets/logo.png"
 
 export default function Nav(){
     return(
         <div className={style.containerNav}>
             <div className={style.fotoNav}>
-                <h1 className={style.foto}>foto</h1>
+                <img alt="logo" className={style.foto} src={logo}></img>
             <div className={style.botonesNav}>
              <ul className={style.ulNav}>
                 <li className={style.liNav}>
