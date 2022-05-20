@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./News.module.css"
 import  {BsCircleFill} from "react-icons/bs";
-import ImagenCard from "../assets/ImagenNews.jpg";
+import ImagenCard from "./Imagenes NewsIT/ImagenNews.jpg";
 
 export default function News(){
     return(

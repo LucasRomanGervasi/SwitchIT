@@ -40,7 +40,12 @@ export default function Contactos(){
                     <h1 className={style.tituloFormulario}>¿Cómo podemos ayudarte?</h1>
                 </div>
                 <div className={style.formulario}>
-                    
+                    <form>
+                        <input className={style.input} type="text" placeholder="Me gustaria"></input>
+                        <input className={style.input} type="text" placeholder="Nombre"></input>
+                        <input className={style.input} type="text" placeholder="Email"></input>
+                        <input className={style.inputMensaje} type="text" placeholder="Mensaje"></input>
+                    </form>
                 </div>
                 <div className={style.containerBoton}>
                     <button className={style.boton}>Enviar</button>

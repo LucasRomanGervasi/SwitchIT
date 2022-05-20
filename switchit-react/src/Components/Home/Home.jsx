@@ -1,15 +1,18 @@
 import React from "react";
 import style from "./Home.module.css"
-import hogarFoto from "../assets/hogares.png"
-import institucionesFoto from "../assets/instituciones.png"
-import empresasFoto from "../assets/empresas.png"
-import Hogar from "./Servicios/InfoCardHogar"
-import Instituciones from "./Servicios/InfoCardInstituciones"
-import Empresas from "./Servicios/InfoCardEmpresas"
+import hogarFoto from "./Imagenes Home/hogares.png"
+import institucionesFoto from "./Imagenes Home/instituciones.png"
+import empresasFoto from "./Imagenes Home/empresas.png"
+import Hogar from "../Servicios/InfoCardHogar"
+import Instituciones from "../Servicios/InfoCardInstituciones"
+import Empresas from "../Servicios/InfoCardEmpresas"
 
 export default function Home(){
     return(
         <div className={style.containerHome}>
+            <div className={style.headerHome}>
+                <h1 className={style.Soluciones}>Soluciones  <span className={style.SolucionesDos}> 360</span></h1>
+            </div>
             <div className={style.presentacion}>
             <h1 className={style.titulo1}> Nos dedicamos a </h1>
             <h2 className={style.titulo2}> digitalizar marcas </h2>

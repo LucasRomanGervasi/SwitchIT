@@ -2,16 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px 0 80px 0;
+    padding: 50px 0 50px 0;
     height: 100%;
 }
 .titulo{
         color: #1DAFA5;
-        font-size: 60px;
+        font-size: 50px;
         width: 100%;
+        font-family: omnes-pro, sans-serif;
+        font-weight: 800;
+        font-style: normal;
 }
 .nosotros{
-    margin: 50px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -25,5 +28,8 @@
 }
 .trabajo{
     font-size: 15px;
-    color: #E3E4E5;
+    color: #838383dc;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }

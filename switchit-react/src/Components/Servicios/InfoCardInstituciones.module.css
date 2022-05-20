@@ -2,11 +2,12 @@
     background-color:  #DF4B86;
     display: flex;
     flex-wrap: wrap;
-    padding: 40px 0 40px 0;
+    padding: 60px 0 60px 0;
     justify-content: space-evenly;
 }
 .institucionesUno{
     width: 60%;
+    margin-left: 20px;
 }
 .containerTitulo{
     width: 80%;
@@ -18,6 +19,9 @@
     font-size: 50px;
     display: flex;
     width: 85%;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 .titulo2{
     color: aliceblue;
@@ -36,6 +40,10 @@
     text-align: left;
     display: flex;
     width: 80%;
+    font-size: 22px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     justify-content: center;
 }
 .nombreListado{

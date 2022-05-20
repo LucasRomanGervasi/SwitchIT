@@ -1,10 +1,10 @@
 import './App.css';
-import Nav from './Components/Nav.jsx'
-import Home from './Components/Home.jsx'
-import News from "./Components/News.jsx"
-import Herramientas from './Components/Herramientas';
-import Nosotros from './Components/Nosotros';
-import Contactos from './Components/Contactos';
+import Nav from './Components/Nav/Nav.jsx'
+import Home from './Components/Home/Home.jsx'
+import News from "./Components/News IT/News.jsx"
+import Herramientas from './Components/Herramientas/Herramientas';
+import Nosotros from './Components/Nosotros/Nosotros';
+import Contactos from './Components/Contactos/Contactos';
 
 function App() {
   return (

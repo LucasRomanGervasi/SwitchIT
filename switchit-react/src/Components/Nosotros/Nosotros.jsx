@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Nosotros.module.css"
-import perfil from "../assets/Nosotros/perfil.png"
+import perfil from "./Imagenes Nosotros/perfil.png"
 export default function Nosotros(){
     return(
         <div className={style.containerNosotros}>

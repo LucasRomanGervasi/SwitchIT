@@ -8,27 +8,43 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 40px 30px 0 30px;
+    padding: 40px 60px 0 60px;
+    justify-content: end;
 }
 .titulos{
     text-align: left;
-    width: 50%;
+    width: 80%;
     margin-bottom: 50px;
 }
 .tituloUno{
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
     color: #FFFFFF;
 }
 .tituloDos{
-    color:#1DAFA5;
+    color: #85DAC6;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
 }
 .informacion{
     text-align: left;
     color: #E3E4E5;
     font-size: 20px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
 }
 .informacionSwitch{
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 35px;
+    font-family: omnes-pro, sans-serif;
+font-weight: 800;
+font-style: normal;
 }
 .subrayado{
     margin: 20px 0 20px 0;
@@ -84,12 +100,62 @@
 }
 .tituloFormulario{
     color: #1DAFA5;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+.input{
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 90%;
+    margin-top: 30px;
+    padding-left: 20px;
+    outline: none;
+}
+.input::placeholder{
+    color:#838383dc;
+    font-size: 15px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.inputMensaje::placeholder{
+    color:#838383dc;
+    font-size: 15px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.inputMensaje{
+    text-align:initial;
+    padding-bottom: 90px;
+    border-radius: 20px;
+    border: none;
+    width: 90%;
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 20px;
+    height: 150px;
+    outline: none;
 }
 .boton{
+    border: none;
     background-color: #262626;
     border-radius: 20px;
     color: #E3E4E5;
     font-size: 15px;
     padding: 2px 20px 2px 20px;
     justify-content: end;
+    height: 40px;
+    width:100px;
 }
