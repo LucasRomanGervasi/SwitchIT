@@ -8,10 +8,12 @@ export  default function infoCardHogar(){
         <div className={style.containerHogar}>
             <div className={style.hogarUno}>
             <h1 className={style.titulo}>Hogar</h1>
+            <div className={style.hogarTexto}>
             <h2 className={style.titulo2}> ¿Buscás tener una casa inteligente? </h2>
             <p className={style.parrafo}> Nuestro objetivo es que tengas el control de todos los
             elementos de tu casa, fomentando la conectividad
             constante con tu hogar.</p>
+            </div>
             </div>
             <div className={style.hogarDos}>
                 <img alt="casa" className={style.fotoHogar} src={hogar}></img>

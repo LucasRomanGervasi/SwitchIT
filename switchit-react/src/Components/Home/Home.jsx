@@ -13,6 +13,8 @@ export default function Home(){
             <div className={style.headerHome}>
                 <h1 className={style.Soluciones}>Soluciones  <span className={style.SolucionesDos}> 360</span></h1>
             </div>
+            <div>
+
             <div className={style.presentacion}>
             <h1 className={style.titulo1}> Nos dedicamos a </h1>
             <h2 className={style.titulo2}> digitalizar marcas </h2>
@@ -40,6 +42,7 @@ export default function Home(){
             </div>
             </div>
             <div className={style.InfoCard}>
+            </div>
                 <Hogar/>
                 <Instituciones/>
                 <Empresas/>

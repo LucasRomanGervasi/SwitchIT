@@ -8,10 +8,12 @@ export  default function infoCardEmpresas(){
         <div className={style.containerEmpresas}>
             <div className={style.empresasUno}>
             <h1 className={style.titulo}>Empresas</h1>
+            <div className={style.empresasTexto}>
             <h2 className={style.titulo2}> ¿Querés sumarte a la revolución digital?</h2>
             <p className={style.parrafo}>Desde instalaciones de servidores, hasta la comunicación
             digital, nuestro objetivo es analizar tu empresa para
             ofrecerte un asesoramiento integral y personalizado.</p>
+            </div>
             </div>
             <div className={style.empresasDos}>
                 <img alt="empresas" className={style.fotoEmpresas} src={empresas}></img>
