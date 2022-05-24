@@ -5,6 +5,7 @@ import {FaFacebookF, FaLinkedinIn, FaInstagram} from "react-icons/fa"
 export default function Contactos(){
     return(
         <div className={style.containerContactos}>
+            <div className={style.contactos}>
             <div className={style.contactosUno}>
                 <div className={style.titulos}>
                     <h1 className={style.tituloUno}>Encontranos,</h1>
@@ -18,21 +19,21 @@ export default function Contactos(){
                     <p className={style.informacion}>11-6744-3962</p>
                 </div>
                 <div className={style.iconos}>
-                    <div className={style.containerFacebook}> 
-                    <span className={style.facebook}>
+                    <a className={style.containerFacebook}> 
+                    <span className={style.facebook} >
                     <FaFacebookF/>
                     </span>
-                    </div>
-                    <div className={style.containerInstagram}> 
+                    </a>
+                    <a className={style.containerInstagram} href="https://www.instagram.com/switchit.ar/"> 
                     <span className={style.instagram}>
                     <FaInstagram/>
                     </span>
-                    </div>
-                    <div className={style.containerLinkedin}> 
-                    <span className={style.linkedin}>
+                    </a>
+                    <a className={style.containerLinkedin} href="https://www.linkedin.com/company/switch-it-tech/"> 
+                    <span className={style.linkedin} >
                     <FaLinkedinIn/>
                     </span>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className={style.contactosDos}>
@@ -50,6 +51,7 @@ export default function Contactos(){
                 <div className={style.containerBoton}>
                     <button className={style.boton}>Enviar</button>
                 </div>
+            </div>
             </div>
         </div>
     )

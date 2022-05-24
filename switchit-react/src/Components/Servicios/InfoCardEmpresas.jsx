@@ -5,7 +5,7 @@ import empresas from "./FotosIconos/empresas.gif"
 
 export  default function infoCardEmpresas(){
     return(
-        <div className={style.containerEmpresas}>
+        <div id="serviciosEmpresas" className={style.containerEmpresas}>
             <div className={style.empresasUno}>
             <h1 className={style.titulo}>Empresas</h1>
             <div className={style.empresasTexto}>

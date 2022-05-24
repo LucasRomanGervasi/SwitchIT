@@ -20,8 +20,8 @@
 .cardUno{
     background-color: #85DAC6;
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
     padding-bottom: 5px;
     margin-bottom: 30px;
@@ -29,17 +29,17 @@
 .cardDos{
     background-color: #85DAC6;
     border-radius: 10px;
-    width: 200px;
+    width: 250px;
     margin-bottom: 30px;
-    height: 200px;
+    height: 250px;
     padding-bottom: 5px;
     box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
 }
 .cardTres{
     background-color: #85DAC6;
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     padding-bottom: 5px;
     box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
 }
@@ -47,7 +47,7 @@
 }
 .ImagenCard{
     width: 100%;
-    height: 170px;
+    height: 220px;
     padding: 10px;
     border-radius: 20px;
 }

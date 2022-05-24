@@ -84,13 +84,17 @@
     display: flex;
     margin-top: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .botonServicios{
     display: flex;
     justify-content: center;
     width: 100%;  
-    height: 100%;
     margin-bottom: 20px;
+}
+.cajaServicios{
+    width: 100%;
+    justify-content: space-between;
 }
 .servicios{
     color: rgb(228, 224, 224);
@@ -132,8 +136,14 @@
     color: #838383dc;
     box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
     margin: 20px;
+    text-decoration: none;
+}
+.hogar:hover{
+    transform: scale(1.09);
+    transition: 1.5s;
 }
 .institucionesEducativas{
+    text-decoration: none;
     width: 200px;
     height: 180px;
     display: flex;
@@ -143,9 +153,14 @@
     margin: 20px;
     color: #838383dc;
     box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+}
+.institucionesEducativas:hover{
+    transform: scale(1.09);
+    transition: 1.5s;
 }
 .empresas{
     width: 200px;
+    text-decoration: none;
     height: 180px;
     margin: 20px;
     display: flex;
@@ -155,7 +170,29 @@
     color: #838383dc;
     box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
 }
-
+.empresas:hover{
+    transform: scale(1.09);
+    transition: 1.5s;
+}
 .InfoCard{
     margin-top: 50px;
+}
+
+.divNoneHogar{
+    display: none;
+}
+.divHogar{
+    display: flex;
+}
+.divNoneInstituciones{
+    display: none;
+}
+.divInstituciones{
+    display: flex;
+}
+.divNoneEmpresas{
+    display: none;
+}
+.divEmpresas{
+    display: flex;
 }

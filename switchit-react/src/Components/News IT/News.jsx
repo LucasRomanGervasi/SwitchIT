@@ -8,7 +8,9 @@ export default function News(){
         <div className={style.containerNews}>
             <h1 className={style.titulo}>News It</h1>
             <div className={style.containerCard}>
-                <div className={style.cardUno}>
+                <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className={style.cardUno}>
                         <div className={style.topCard}> 
                             <div className={style.circulo}><BsCircleFill/></div>
                             <div className={style.circulo}><BsCircleFill/></div>
@@ -18,7 +20,9 @@ export default function News(){
                         <img className={style.ImagenCard} alt="imagen" src={ImagenCard}></img>
                         </div>
                 </div>
-                <div className={style.cardDos}>
+                <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className={style.cardDos}>
                 <div className={style.topCard}> 
                             <div className={style.circulo}><BsCircleFill/></div>
                             <div className={style.circulo}><BsCircleFill/></div>
@@ -28,7 +32,9 @@ export default function News(){
                         <img className={style.ImagenCard} alt="imagen" src={ImagenCard}></img>
                         </div>
                 </div>
-                <div className={style.cardTres}>
+                <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className={style.cardTres}>
                 <div className={style.topCard}> 
                             <div className={style.circulo}><BsCircleFill/></div>
                             <div className={style.circulo}><BsCircleFill/></div>

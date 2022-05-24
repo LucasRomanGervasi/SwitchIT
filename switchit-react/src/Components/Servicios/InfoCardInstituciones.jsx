@@ -5,7 +5,7 @@ import mochila from "./FotosIconos/mochila.gif"
 
 export default function infoCardInstituciones() {
     return(
-        <div className={style.containerInstituciones}>
+        <div id="serviciosInstitutos" className={style.containerInstituciones}>
             <div className={style.institucionesUno}>
             <h1 className={style.titulo}>Instituciones Educativas</h1>
             <div className={style.institucionesTexto}>

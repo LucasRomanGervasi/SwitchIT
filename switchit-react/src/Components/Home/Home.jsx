@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./Home.module.css"
 import hogarFoto from "./Imagenes Home/hogares.png"
 import institucionesFoto from "./Imagenes Home/instituciones.png"
@@ -8,6 +8,7 @@ import Instituciones from "../Servicios/InfoCardInstituciones"
 import Empresas from "../Servicios/InfoCardEmpresas"
 
 export default function Home(){
+    const [servicios, setServicios] = useState("")
     return(
         <div className={style.containerHome}>
             <div className={style.headerHome}>
@@ -15,38 +16,48 @@ export default function Home(){
             </div>
             <div>
 
-            <div className={style.presentacion}>
-            <h1 className={style.titulo1}> Nos dedicamos a </h1>
-            <h2 className={style.titulo2}> digitalizar marcas </h2>
-            <p className={style.parrafo}> Brindamos un servicio integral de soluciones informáticas que, sumado al conocimiento a nuestra basta experiencia en 
+            <div data-aos="fade-up"  className={style.presentacion}>
+            <h1   className={style.titulo1}> Nos dedicamos a </h1>
+            <h2  className={style.titulo2}> digitalizar marcas </h2>
+            <div data-aos="fade-up"   className={style.parrafo} >
+            <p> Brindamos un servicio integral de soluciones informáticas que, sumado al conocimiento a nuestra basta experiencia en 
              gestión de negocios, nos permite brindarte la solución que tu negocio necesita para adaptarse a este nuevo mundo 
                  empresarial y crecer orgánicamente. </p>
             </div>
+            </div>
             <div className={style.presentacion2}> 
-            <div className={style.botonServicios}>
+            <div data-aos="fade-up" className={style.botonServicios}>
                 <a className={style.servicios}>Conocé nuestros servicios para</a>
             </div>
-            <div className={style.cajaServicios}>
-                <div className={style.hogar}>
+            <div data-aos="fade-up" className={style.cajaServicios}>
+                <a className={style.hogar} href="#serviciosHome" onClick={() => setServicios("home")}>
                     <img className={style.foto} src={hogarFoto}></img>
                     <h3 className={style.nombreCaja}>Hogar</h3>
-                </div>
-                <div className={style.institucionesEducativas}>
+                </a>
+                <a  className={style.institucionesEducativas} href="#serviciosInstitutos" onClick={() => setServicios("instituciones")}>
                     <img className={style.foto} src={institucionesFoto}></img>
                     <h3 className={style.nombreCaja}> Instituciones Educativas</h3>
-                </div>
-                <div className={style.empresas}>
+                </a>
+                <a className={style.empresas} href="#serviciosEmpresas" onClick={() => setServicios("empresas")}>
                     <img className={style.foto} src={empresasFoto}></img>
                     <h3 className={style.nombreCaja}>Empresas</h3>
-                </div>
+                </a>
             </div>
             </div>
             <div className={style.InfoCard}>
+           </div> 
+           <div>
+            <div className={servicios === "home" ? style.divHogar : style.divNoneHogar}>
+             <Hogar/>
             </div>
-                <Hogar/>
-                <Instituciones/>
-                <Empresas/>
+            <div className={servicios === "instituciones" ? style.divInstitutos : style.divNoneInstituciones}>
+            <Instituciones/>
             </div>
+            <div className={servicios === "empresas" ? style.divEmpresas : style.divNoneEmpresas}>
+            <Empresas/>
+            </div>
+           </div>
+                </div>
         </div>
     )
 }
