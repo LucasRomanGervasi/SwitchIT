@@ -1,5 +1,6 @@
 .containerHerramientas{
     background-color: #262626 ;
+    overflow: hidden;
     padding-top: 10px;
     width: 100%;
     height: 100vh;
@@ -16,22 +17,73 @@
     margin-bottom: 40px;
 }
 .iconosTecnologias{
-    margin: 10px 40px 0px 40px;
-    display: flex;
-    flex-wrap: wrap;
-    height: 20%;
-    justify-content: space-evenly;
-
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    overflow:hidden;
 }
 .iconosPartners{
-    margin: 10px 40px 10px 40px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    height: 20%;
-}
-.icon{
-    width: 100px;
-    margin: 10px;
+    width: 80%;
     height: auto;
+    margin: auto;
+    overflow:hidden;
+}
+.iconosTecnologias .containerIcon{
+    display: flex;
+    margin: 30px;
+    -webkit-animation: scrollTecnologias 20s  linear infinite  ;
+    animation: scrollTecnologias 20s  linear infinite ;
+    width: calc(110px * 22);
+    align-content: space-between;
+    justify-content: space-between;
+}
+.iconosPartners .containerIcon{
+    display: flex;
+    margin: 30px;
+    -webkit-animation: scrollPartners 20s  linear  infinite  ;
+    animation: scrollPartners 20s  linear  infinite  ;
+    width: calc(110px * 12);
+    
+    align-content: space-between;
+    justify-content: space-between;
+}
+.containerIcon .icon{
+    width: 110px;
+    margin-right: 80px;
+    }
+.containerIcon .icon img{
+    width: 100%
+}
+
+@keyframes scrollTecnologias {
+    0%{
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+  }
+  100%{
+      -webkit-transform: translate(calc(-110px * 11));
+      transform: translateX(calc(-110px * 11));
+    }
+}
+@keyframes scrollPartners {
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(-110px * 6));
+        transform: translateX(calc(-110px * 6));
+      }
+  }
+
+
+/* Media Queries */
+@media screen and (max-width: 770px){
+    .titulo{
+        font-size: 3rem;
+    }
+    .icon{
+        width: 80px;
+    }
 }

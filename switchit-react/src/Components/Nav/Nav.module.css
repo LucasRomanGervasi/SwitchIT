@@ -1,6 +1,7 @@
 .containerNav{
     background-color:#262626;
     height: 50px;
+    width: 100%;
     display: flex;
     padding: 0px 20px 0px 20px;
     justify-content: space-between;
@@ -68,4 +69,52 @@ font-style: normal;
     border-radius: 20px;
     font-size: 15px;
     align-items: center;
+}
+.botonHamburguesa{
+    display: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px){
+    .botonesNav{
+        display: none;
+    }
+    .botonHamburguesa{
+        display: flex;
+        width: 80%;
+        justify-content: flex-end;
+    }
+    .botoncontainer{
+        height: 50px;
+    }
+    .botoncontainer {
+        background: none;
+            cursor: pointer;
+            padding: 0;
+            border:none;
+            width: 50px;
+            outline: none;
+        }
+        .botoncontainer span{
+            animation-fill-mode: forwards;
+            animation-duration: 2s;
+            border-radius: 5px;
+            background: white;
+            display: block;
+            border:none;
+            width: 60%;
+            margin: 5px auto;
+            height: 4px;
+        }
+        
+        .botoncontainer .topline{
+            animation-name: top-line-animation-close;
+        }
+        .botoncontainer .middleline{
+            animation-name: middle-line-animation-close;
+        }
+        .botoncontainer .bottomline{
+            animation-name: bottom-line-animation-close;
+        }
 }

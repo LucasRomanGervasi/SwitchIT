@@ -196,3 +196,20 @@
 .divEmpresas{
     display: flex;
 }
+ 
+/* Media Queries */
+
+@media screen and (max-width: 500px){
+    .titulo1{
+        font-size: 35px;
+        }
+    .titulo2{
+        font-size: 40px;
+    }
+    .parrafo{
+        font-size: 20px;
+    }
+    .servicios{
+        font-size: 20px;
+    }
+}

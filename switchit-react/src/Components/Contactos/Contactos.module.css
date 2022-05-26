@@ -164,3 +164,28 @@ font-style: normal;
     height: 40px;
     width:100px;
 }
+/* Media Queries */ 
+@media screen and (max-width: 970px){
+    .tituloUno{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 770px){
+    .containerContactos{
+        flex-direction: column-reverse;
+    }
+    .contactos{
+        flex-direction: column-reverse;
+    }
+    .contactosUno{
+        width: 100%;
+        height: 100vh;
+    }
+    .contactosDos{
+        width: 100%;
+        height: 100vh;
+    }
+    .tituloUno{
+        font-size: 2.4rem;
+    }
+}

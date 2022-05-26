@@ -64,3 +64,39 @@
     color: #85DAC6;
     align-items: flex-start;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 770px){
+    .titulo{
+        font-size: 50px;
+        margin-bottom: 60px;
+    }
+    .cardUno{
+        background-color: #85DAC6;
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+        padding-bottom: 5px;
+        box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+    }
+    .cardDos{
+        background-color: #85DAC6;
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+        padding-bottom: 5px;
+        box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+    }
+    .cardTres{
+        background-color: #85DAC6;
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+        padding-bottom: 5px;
+        box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+    }
+    .ImagenCard{
+        height: 170px;
+    }
+}

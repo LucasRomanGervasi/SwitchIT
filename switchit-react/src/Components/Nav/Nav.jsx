@@ -24,6 +24,13 @@ export default function Nav(){
              </ul>
             </div>
             </div>
+            <div className={style.botonHamburguesa}>
+            <button className={style.botoncontainer}>
+                    <span className={style.topline}> </span>
+                    <span className={style.middleline}></span>
+                    <span className={style.bottomline}></span>
+            </button>
+            </div>
             <div className={style.botonLogin}>
                 <a className={style.boton}> Login</a>
             </div>

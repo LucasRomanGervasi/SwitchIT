@@ -5,7 +5,7 @@ import  {BsArrowRight, BsHouseDoor} from "react-icons/bs";
 
 export  default function infoCardHogar(){
     return(
-        <div id="serviciosHome" className={style.containerHogar}>
+        <div id="serviciosHogar" className={style.containerHogar}>
             <div className={style.hogarUno}>
             <h1 className={style.titulo}>Hogar</h1>
             <div className={style.hogarTexto}>
@@ -17,7 +17,7 @@ export  default function infoCardHogar(){
             </div>
             <div className={style.hogarDos}>
                 <img alt="casa" className={style.fotoHogar} src={hogar}></img>
-                <a className={style.boton}>Conocé más <BsArrowRight/></a>
+                <a href="Hogar" className={style.boton}>Conocé más <BsArrowRight/></a>
             </div>
         </div>
     )
