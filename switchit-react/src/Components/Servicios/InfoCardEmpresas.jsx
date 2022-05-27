@@ -17,7 +17,7 @@ export  default function infoCardEmpresas(){
             </div>
             <div className={style.empresasDos}>
                 <img alt="empresas" className={style.fotoEmpresas} src={empresas}></img>
-                <a className={style.boton}>Conocé más <BsArrowRight/></a>
+                <a href="Empresas" className={style.boton}>Conocé más <BsArrowRight/></a>
             </div>
         </div>
     )

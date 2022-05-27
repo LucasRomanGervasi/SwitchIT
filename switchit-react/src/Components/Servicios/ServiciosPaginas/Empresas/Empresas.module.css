@@ -1,18 +1,23 @@
-.containerHogar{
+.containerEmpresas{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.headerHogar{
+.containerEmpresas{
     display: flex;
-    background-image: url("./ImagenesHogar/hogar.jpg");
+    flex-direction: column;
+    text-align: center;
+}
+.headerEmpresas{
+    display: flex;
+    background-image: url("./ImagenesEmpresas/empresas.png");
     background-size: 100% 100%;
     justify-content: center;
     height: 100vh;
     line-height:90px;
     
 }
-.HomeOffice{
+.Empresas{
     flex-direction: column;
     text-align: center;
     display: flex;

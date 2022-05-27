@@ -6,7 +6,7 @@ export default function Nav(){
     return(
         <div className={style.containerNav}>
             <div className={style.fotoNav}>
-                <img alt="logo" className={style.foto} src={logo}></img>
+                <a href="/"><img  alt="logo" className={style.foto} src={logo}></img></a>
             <div className={style.botonesNav}>
              <ul className={style.ulNav}>
                 <li className={style.liNav}>

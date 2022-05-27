@@ -25,7 +25,7 @@ export default function Herramientas(){
         <div className={style.containerHerramientas}>
         <div className={style.containerPartners}>
             <h1 className={style.titulo}> Partners </h1>
-            <div className={style.iconosPartners}>
+            <div class="carruselInfinito" className={style.iconosPartners}>
             <div className={style.containerIcon}>
                 <img alt="icon" className={style.icon} src={Cisco}></img>
                 <img alt="icon" className={style.icon} src={DELL}></img>

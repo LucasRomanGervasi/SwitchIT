@@ -42,10 +42,10 @@ export default function Contactos(){
                 </div>
                 <div className={style.formulario}>
                     <form>
-                        <input className={style.input} type="text" placeholder="Me gustaria"></input>
-                        <input className={style.input} type="text" placeholder="Nombre"></input>
-                        <input className={style.input} type="text" placeholder="Email"></input>
-                        <input className={style.inputMensaje} type="text" placeholder="Mensaje"></input>
+                        <input className={style.input} required type="text" placeholder="Me gustaria"></input>
+                        <input className={style.input} required type="text" placeholder="Nombre"></input>
+                        <input className={style.input} required type="text" placeholder="Email"></input>
+                        <textarea className={style.inputMensaje} required type="text"  placeholder="Mensaje"></textarea>
                     </form>
                 </div>
                 <div className={style.containerBoton}>

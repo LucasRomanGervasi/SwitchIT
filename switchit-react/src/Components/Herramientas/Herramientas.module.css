@@ -20,7 +20,6 @@
     width: 80%;
     height: auto;
     margin: auto;
-    position: absolute;
     overflow:hidden;
 }
 .iconosPartners{
@@ -32,8 +31,8 @@
 .iconosTecnologias .containerIcon{
     display: flex;
     margin: 30px;
-    -webkit-animation: scrollTecnologias 20s  linear infinite  ;
-    animation: scrollTecnologias 20s  linear infinite ;
+    -webkit-animation: scrollTecnologias 30s  linear infinite  ;
+    animation: scrollTecnologias 30s  linear infinite ;
     width: calc(110px * 22);
     align-content: space-between;
     justify-content: space-between;
@@ -41,12 +40,12 @@
 .iconosPartners .containerIcon{
     display: flex;
     margin: 30px;
-    -webkit-animation: scrollPartners 20s  linear  infinite  ;
-    animation: scrollPartners 20s  linear  infinite  ;
+    -webkit-animation: scrollPartners 30s  linear  infinite  ;
+    animation: scrollPartners 30s  linear  infinite  ;
     width: calc(110px * 12);
     
     align-content: space-between;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .containerIcon .icon{
     width: 110px;

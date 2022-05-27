@@ -149,9 +149,12 @@ font-style: normal;
     width: 90%;
     display: inline-block;
     margin-top: 30px;
-    padding-left: 20px;
+    padding: 20px;
     height: 150px;
     outline: none;
+    resize: none;
+    font-size: 15px;
+    font-family: neue-haas-grotesk-display, sans-serif;;
 }
 .boton{
     border: none;
@@ -163,6 +166,8 @@ font-style: normal;
     justify-content: end;
     height: 40px;
     width:100px;
+    text-align: center;
+    align-items: center;
 }
 /* Media Queries */ 
 @media screen and (max-width: 970px){

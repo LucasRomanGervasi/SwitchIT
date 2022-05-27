@@ -18,7 +18,7 @@ export default function infoCardInstituciones() {
             </div>
             <div className={style.institucionesDos}>
                 <img alt="mochila" className={style.fotoInstituciones} src={mochila}></img>
-                <a className={style.boton}>Conocé más <BsArrowRight/></a>
+                <a href="InstitucionesEducativas" className={style.boton}>Conocé más <BsArrowRight/></a>
             </div>
         </div>
     )
