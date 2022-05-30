@@ -32,7 +32,7 @@ export default function Nav(){
             </button>
             </div>
             <div className={style.botonLogin}>
-                <a className={style.boton}> Login</a>
+                <a href="Login"  className={style.boton}> Login</a>
             </div>
         </div>
     )

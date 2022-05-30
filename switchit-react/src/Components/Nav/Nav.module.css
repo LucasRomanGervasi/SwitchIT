@@ -69,6 +69,8 @@ font-style: normal;
     border-radius: 20px;
     font-size: 15px;
     align-items: center;
+    text-decoration: none;
+    color: #E3E4E5;
 }
 .botonHamburguesa{
     display: none;
