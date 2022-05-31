@@ -33,6 +33,13 @@ export default function Herramientas(){
                 <img alt="icon" className={style.icon} src={Microsoft}></img>
                 <img alt="icon" className={style.icon} src={Promox}></img>
                 <img alt="icon" className={style.icon} src={TP}></img>
+
+                <img alt="icon" className={style.icon} src={Cisco}></img>
+                <img alt="icon" className={style.icon} src={DELL}></img>
+                <img alt="icon" className={style.icon} src={HPEnterprise}></img>
+                <img alt="icon" className={style.icon} src={Microsoft}></img>
+                <img alt="icon" className={style.icon} src={Promox}></img>
+                <img alt="icon" className={style.icon} src={TP}></img>
             </div>
             </div>
         </div>  
@@ -40,6 +47,18 @@ export default function Herramientas(){
             <h1 className={style.titulo}> Tecnologias</h1>
             <div className={style.iconosTecnologias}>
                 <div className={style.containerIcon}>
+                <img alt="icon" className={style.icon} src={anyConnect}></img>
+                <img alt="icon" className={style.icon} src={anyDesk}></img>
+                <img alt="icon" className={style.icon} src={GoogleCloud}></img>
+                <img alt="icon" className={style.icon} src={Gatsby}></img>
+                <img alt="icon" className={style.icon} src={Firebase}></img>
+                <img alt="icon" className={style.icon} src={Docker}></img>
+                <img alt="icon" className={style.icon} src={MicrosoftRD}></img>
+                <img alt="icon" className={style.icon} src={AWS}></img>
+                <img alt="icon" className={style.icon} src={ReactIcon}></img>
+                <img alt="icon" className={style.icon} src={NodeJS}></img>
+                <img alt="icon" className={style.icon} src={MongoDB}></img>
+               
                 <img alt="icon" className={style.icon} src={anyConnect}></img>
                 <img alt="icon" className={style.icon} src={anyDesk}></img>
                 <img alt="icon" className={style.icon} src={GoogleCloud}></img>

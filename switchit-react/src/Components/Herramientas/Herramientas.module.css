@@ -17,64 +17,32 @@
     margin-bottom: 40px;
 }
 .iconosTecnologias{
-    width: 80%;
-    height: auto;
-    margin: auto;
-    overflow:hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .iconosPartners{
-    width: 80%;
-    height: auto;
-    margin: auto;
-    overflow:hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .iconosTecnologias .containerIcon{
-    display: flex;
-    margin: 30px;
-    -webkit-animation: scrollTecnologias 30s  linear infinite  ;
-    animation: scrollTecnologias 30s  linear infinite ;
-    width: calc(110px * 22);
-    align-content: space-between;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 .iconosPartners .containerIcon{
-    display: flex;
-    margin: 30px;
-    -webkit-animation: scrollPartners 30s  linear  infinite  ;
-    animation: scrollPartners 30s  linear  infinite  ;
-    width: calc(110px * 12);
-    
-    align-content: space-between;
-    justify-content: space-between; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
 }
 .containerIcon .icon{
-    width: 110px;
-    margin-right: 80px;
+    width: 80px;
+    margin: 0 20px 0 20px;
     }
-.containerIcon .icon img{
-    width: 100%
-}
-
-@keyframes scrollTecnologias {
-    0%{
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-  }
-  100%{
-      -webkit-transform: translate(calc(-110px * 11));
-      transform: translateX(calc(-110px * 11));
-    }
-}
-@keyframes scrollPartners {
-    0%{
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-    100%{
-        -webkit-transform: translateX(calc(-110px * 6));
-        transform: translateX(calc(-110px * 6));
-      }
-  }
 
 
 /* Media Queries */

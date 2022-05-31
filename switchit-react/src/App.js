@@ -1,10 +1,6 @@
 import './App.css';
 import Nav from './Components/Nav/Nav.jsx'
 import Home from './Components/Home/Home.jsx'
-import News from "./Components/News IT/News.jsx"
-import Herramientas from './Components/Herramientas/Herramientas';
-import Nosotros from './Components/Nosotros/Nosotros';
-import Contactos from './Components/Contactos/Contactos';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Hogar from './Components/Servicios/ServiciosPaginas/Hogar/Hogar';
 import InstitucionesEducativas from './Components/Servicios/ServiciosPaginas/Instituciones/InstitucionesEducativas';
@@ -13,16 +9,14 @@ import Login from './Components/Login-Register/Login';
 import Register from './Components/Login-Register/Register';
 import { useState } from 'react';
 import Loading from './Components/Loading/Loading';
+import HeaderHome from './Components/HeaderHome/HeaderHome';
 
 function AppPrincipal() {
   return (
     <div className="App">
       <div> <Nav/> </div>
+      <div > <HeaderHome/> </div>
       <div > <Home/> </div>
-      <div > <News/> </div>
-      <div > <Herramientas/> </div>
-      <div id="Nosotros"> <Nosotros/> </div>
-      <div id="Contactos"> <Contactos/> </div>
     </div>
   );
 }

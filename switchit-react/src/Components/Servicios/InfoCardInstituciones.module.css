@@ -29,10 +29,11 @@
     line-height: 100%;
 }
 .institucionesTexto{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     height: 100%;
+    justify-content: center;
 } 
 
 .titulo2{

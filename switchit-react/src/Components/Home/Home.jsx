@@ -6,6 +6,9 @@ import empresasFoto from "./Imagenes Home/empresas.png"
 import Hogar from "../Servicios/InfoCardHogar"
 import Instituciones from "../Servicios/InfoCardInstituciones"
 import Empresas from "../Servicios/InfoCardEmpresas"
+import News from "../News IT/News"
+import Herramientas from "../Herramientas/Herramientas"
+import Contactos from "../Contactos/Contactos";
 
 export default function Home(){
     const [servicios, setServicios] = useState("")
@@ -49,12 +52,21 @@ export default function Home(){
            <div>
             <div className={servicios === "home" ? style.divHogar : style.divNoneHogar}>
                 <Hogar/>
+                <div > <News/> </div>
+                <div > <Herramientas/> </div>
+                <div id="Contactos"> <Contactos/> </div>
             </div>
             <div className={servicios === "instituciones" ? style.divInstitutos : style.divNoneInstituciones}>
             <Instituciones/>
+            <div > <News/> </div>
+                <div > <Herramientas/> </div>
+                <div id="Contactos"> <Contactos/> </div>
             </div>
             <div className={servicios === "empresas" ? style.divEmpresas : style.divNoneEmpresas}>
                 <Empresas/>
+                <div > <News/> </div>
+                <div > <Herramientas/> </div>
+                <div id="Contactos"> <Contactos/> </div>
             </div>
            </div>
         </div>

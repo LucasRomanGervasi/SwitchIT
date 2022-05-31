@@ -1,0 +1,74 @@
+.containerHeaderHome{
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+}
+.cajas{
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.cajaUl{
+    width: 100vh;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(0,0,0,.2);
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+}
+.cajaUl .cajaLi{
+    list-style: none;
+    width: 100%;
+}
+.cajaUl .cajaLi .cajaA{
+    display: block;
+    color: rgb(221, 221, 221);
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+    font-size: sans-serif;
+    height: 100vh;
+}
+.cajas .cajaImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    z-index: -2;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: sans-serif;
+}
+.cajaUl .cajaLi .cajaA:hover {
+    color: rgba(0, 0, 0, 0.514);
+    height: 100vh;
+}
+.cajaUl .cajaLi:nth-child(1) .cajaA + .cajaImg {
+    opacity: 1;
+    background-image: none;
+}
+.cajaUl .cajaLi .cajaA:hover + .cajaImg {
+    opacity: 1;
+    z-index: -1;
+    animation: animate 20s 1 linear forwards; 
+}
+@keyframes animate {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+

@@ -21,20 +21,19 @@
     display: flex;
     flex-direction: column;
     border-radius: 25px;
-    margin-top: 20px;
-    height: 80%;
-    width: 60%;
-    background-color:  #1DAFA5;
     padding: 20px;
     align-items: center;
     box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
     justify-content: center;
+    background-color:  #1DAFA5;
+    margin: 30px 30px 30px 30px;
 }
 .formulario{
+    width: 100%;
+    height: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 60%;
 }
 .tituloFormulario{
     color: #E3E4E5;
@@ -45,7 +44,7 @@
     border: none;
     height: 40px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-left: 20px;
     outline: none;
 }
@@ -68,7 +67,7 @@
     width:100px;
     text-align: center;
     align-items: center;
-    margin: 30px;
+    margin: 20px;
     justify-content: center;
 
 }
@@ -77,12 +76,12 @@
     justify-content: normal;
     height: 20%;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .registrate{
     justify-content: end;
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: #E3E4E5;
     text-align: left;
     margin: 5px;
@@ -91,6 +90,6 @@
     text-decoration: none;
     justify-content: end;
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: #FFFFFF;
 }

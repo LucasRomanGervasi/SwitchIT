@@ -115,7 +115,7 @@
 }
 
 .foto{
-    width: 50px;
+    width: 70px;
     display: flex;
 }
 
@@ -189,18 +189,21 @@
 }
 .divHogar{
     display: flex;
+    flex-direction: column;
 }
 .divNoneInstituciones{
     display: none;
 }
 .divInstituciones{
     display: flex;
+    flex-direction: column;
 }
 .divNoneEmpresas{
     display: none;
 }
 .divEmpresas{
     display: flex;
+    flex-direction: column;
 }
  
 /* Media Queries */
