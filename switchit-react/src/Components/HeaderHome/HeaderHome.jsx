@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./HeaderHome.module.css"
 import imagen1 from "./Imagenes HeaderHome/image1.jpg"
-import imagen2 from "./Imagenes HeaderHome/image2.jpg"
+import imagen2 from "./Imagenes HeaderHome/image2.png"
 import imagen3 from "./Imagenes HeaderHome/image3.jpg"
-import imagen4 from "./Imagenes HeaderHome/image4.jpg"
+import imagen4 from "./Imagenes HeaderHome/image4.png"
 
 export default function HeaderHome(){
     return(

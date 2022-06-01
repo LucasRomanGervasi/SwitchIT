@@ -7,8 +7,8 @@ export default function infoCardInstituciones() {
     return(
         <div id="serviciosInstitutos" className={style.containerInstituciones}>
             <div className={style.institucionesUno}>
-            <h1 className={style.titulo}>Instituciones Educativas</h1>
             <div className={style.institucionesTexto}>
+            <h1 className={style.titulo}>Instituciones Educativas</h1>
             <h2 className={style.titulo2}>¿Buscás digitalizar tu institución?</h2>
             <p className={style.parrafo}>Preparamos aulas híbridas e implementamos Google For
             Education con el objetivo de brindar una experiencia

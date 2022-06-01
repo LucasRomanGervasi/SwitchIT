@@ -1,11 +1,11 @@
 .containerHeaderHome{
     margin: 0;
     padding: 0;
-    height: 80vh;
+    height: 60vh;
 }
-.cajas{
+ .cajas{
     position: absolute;
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,7 @@
 }
 .cajaUl{
     width: 100vh;
-    height: 80vh;
+    height: 60vh;
     margin: 0;
     padding: 0;
     background: rgb(0,0,0,.2);
@@ -38,7 +38,7 @@
     height: 100vh;
 }
 .cajas .cajaImg{
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     height: 100vh;
@@ -61,14 +61,7 @@
 .cajaUl .cajaLi .cajaA:hover + .cajaImg {
     opacity: 1;
     z-index: -1;
-    animation: animate 20s 1 linear forwards; 
 }
-@keyframes animate {
-    0%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(2);
-    }
-}
+
+ 
 

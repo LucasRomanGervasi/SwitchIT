@@ -7,8 +7,8 @@ export  default function infoCardEmpresas(){
     return(
         <div id="serviciosEmpresas" className={style.containerEmpresas}>
             <div className={style.empresasUno}>
-            <h1 className={style.titulo}>Empresas</h1>
             <div className={style.empresasTexto}>
+            <h1 className={style.titulo}>Empresas</h1>
             <h2 className={style.titulo2}> ¿Querés sumarte a la revolución digital?</h2>
             <p className={style.parrafo}>Desde instalaciones de servidores, hasta la comunicación
             digital, nuestro objetivo es analizar tu empresa para

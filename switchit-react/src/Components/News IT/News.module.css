@@ -1,6 +1,6 @@
 .containerNews{
     display: flex;
-    background-image: url("./Imagenes\ NewsIT/lunares-celestes-8.jpg");
+    background-image: url("./Imagenes\ NewsIT/fondo.png");
     padding: 50px 0 80px 0;
     height: 100vh;
     flex-direction: column;

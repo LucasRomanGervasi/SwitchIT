@@ -32,17 +32,17 @@ export default function Home(){
                 <a className={style.servicios}>Conocé nuestros servicios para</a>
             </div>
             <div data-aos="fade-up" className={style.cajaServicios}>
-                <a className={style.hogar} href="#serviciosHogar" onClick={() => setServicios("home")}>
-                    <img className={style.foto} src={hogarFoto}></img>
-                    <h3 className={style.nombreCaja}>Hogar</h3>
+                <a className={style.empresas} href="#serviciosEmpresas" onClick={() => setServicios("empresas")}>
+                    <img className={style.foto} src={empresasFoto}></img>
+                    <h3 className={style.nombreCaja}>Empresas</h3>
                 </a>
                 <a  className={style.institucionesEducativas} href="#serviciosInstitutos" onClick={() => setServicios("instituciones")}>
                     <img className={style.foto} src={institucionesFoto}></img>
                     <h3 className={style.nombreCaja}> Instituciones Educativas</h3>
                 </a>
-                <a className={style.empresas} href="#serviciosEmpresas" onClick={() => setServicios("empresas")}>
-                    <img className={style.foto} src={empresasFoto}></img>
-                    <h3 className={style.nombreCaja}>Empresas</h3>
+                <a className={style.hogar} href="#serviciosHogar" onClick={() => setServicios("home")}>
+                    <img className={style.foto} src={hogarFoto}></img>
+                    <h3 className={style.nombreCaja}>Hogar</h3>
                 </a>
             </div>
             </div>
