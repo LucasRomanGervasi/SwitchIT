@@ -9,13 +9,14 @@ export default function HeaderHome(){
     const [active, setActive] = useState("");
     const sectionStyle = {
         position: "absolute",
-     height: "60vh",
+     height: "80vh",
      width: "100%",
      display: "flex",
     justifyContent: "space-between",
     overflow: "hidden",
-        backgroundImage: "url(" + active + ")",
-        backgroundSize:"100%" + "100%",
+    backgroundImage: "url(" + active + ")",
+    backgroundSize:"cover",
+    backgroundRepeat: "no-repeat"
     }
     return(
         <div className={style.containerHeaderHome}>
