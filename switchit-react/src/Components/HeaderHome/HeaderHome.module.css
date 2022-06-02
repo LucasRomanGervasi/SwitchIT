@@ -1,9 +1,9 @@
-.containerHeaderHome{
+/* .containerHeaderHome{
     margin: 0;
     padding: 0;
     height: 60vh;
 }
- .cajas{
+ .cajasuno{
     position: absolute;
     height: 60vh;
     width: 100%;
@@ -64,4 +64,67 @@
 }
 
  
+*/
+.containerHeaderHome{
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+}
+.cajasdos{
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   overflow: hidden;
+}
+ .cajasuno{
+     position: absolute;
+     height: 60vh;
+     width: 100%;
+     display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.cajaUl{
+    width: 100vh;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(0,0,0,.2);
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+}
+.cajaUl .cajaLi{
+    list-style: none;
+    width: 100%;
+}
+.cajaUl .cajaLi .cajaA{
+    display: block;
+    color: rgb(221, 221, 221);
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+    font-size: sans-serif;
+    height: 100vh;
+}
+.cajas .cajaImg{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    z-index: 0;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: sans-serif;
+}
 
+
+ 

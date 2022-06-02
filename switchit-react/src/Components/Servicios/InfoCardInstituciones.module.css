@@ -3,7 +3,7 @@
 display: flex;
 flex-wrap: wrap;
 padding: 60px 0 60px 0;
-justify-content: space-evenly;
+justify-content: center;
 height: 100vh;
 }
 .institucionesUno{
@@ -117,10 +117,6 @@ text-decoration: none;
 .boton{
     font-size: 1.7rem;
 }
-.fotoInstituciones{
-    width: 50vh;
-    height: 50vh;
-}
 }
 @media  (min-width: 1440px) {
 .institucionesUno{
@@ -142,25 +138,34 @@ text-decoration: none;
 .boton{
     font-size: 3rem;
 }
+.fotoInstituciones{
+    width: 60vh;
+    height: 60vh;
+}
 }
 
-@media (min-width: 1920){
-.institucionesUno{
-    height: 80%;
-}
+@media (min-width: 1920px){
+    .institucionesUno{
+        justify-content: flex-end;
+    }
 .titulo{
-    font-size: 8rem;
+    font-size: 7rem;
+    align-items: center;
 }
 .institucionesTexto{
     width: 80%;
 }
 .titulo2{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .parrafo{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .boton{
     font-size: 2.5rem;
+}
+.fotoInstituciones{
+    width: 65vh;
+    height: 65vh;
 }
 }

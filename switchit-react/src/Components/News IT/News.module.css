@@ -4,9 +4,9 @@
     padding: 50px 0 80px 0;
     height: 100vh;
     flex-direction: column;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
 }
+
 .titulo{
     color: #1DAFA5;
     font-size: 60px;
@@ -65,38 +65,41 @@
     align-items: flex-start;
 }
 
+
 /* Media Queries */
 
-@media screen and (max-width: 770px){
-    .titulo{
-        font-size: 50px;
-        margin-bottom: 60px;
-    }
-    .cardUno{
-        background-color: #85DAC6;
-        border-radius: 10px;
-        width: 200px;
-        height: 200px;
-        padding-bottom: 5px;
-        box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
-    }
-    .cardDos{
-        background-color: #85DAC6;
-        border-radius: 10px;
-        width: 200px;
-        height: 200px;
-        padding-bottom: 5px;
-        box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
-    }
-    .cardTres{
-        background-color: #85DAC6;
-        border-radius: 10px;
-        width: 200px;
-        height: 200px;
-        padding-bottom: 5px;
-        box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
-    }
-    .ImagenCard{
-        height: 170px;
+@media (min-width: 980px) {
+    .titulo1{
+        font-size: 3rem;
     }
 }
+@media (min-width: 1440px) {
+    .titulo{
+        font-size: 5rem;
+    }
+    .ImagenCard{
+        height: 350px;
+    }
+    .cardUno{
+        width: 400px;
+        height: 400px;
+    }
+    .cardDos{
+        width: 400px;
+        height: 400px;
+    }
+    .cardTres{
+        width: 400px;
+        height: 400px;
+    }
+    .topCard{
+        padding: 10px;
+    }
+    .circulo{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    }
+@media (min-width: 1920px){
+    
+    }

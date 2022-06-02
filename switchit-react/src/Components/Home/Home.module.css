@@ -38,6 +38,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: stretch;
 }
 .presentacion1{
     width: 100%;
@@ -96,10 +97,7 @@
     width: 100%;  
     margin-bottom: 20px;
 }
-.cajaServicios{
-    width: 100%;
-    justify-content: space-between;
-}
+
 .servicios{
     color: rgb(228, 224, 224);
     font-size: 25px;
@@ -212,21 +210,69 @@
     .titulo1{
         font-size: 3rem;
     }
-    }
-    @media  (min-width: 1440px) {
+}
+@media (min-width: 1440px) {
     .titulo1{
         font-size: 4rem;
     }
     .titulo2{
         font-size: 4rem;
     }
+    .parrafo{
+        font-size: 2rem;
     }
-    
+    .servicios{
+        font-size: 2rem;
+        padding: 10px 15px 10px 5px;
+        height: 70px;
+    }
+    .nombreCaja{
+        font-size: 1.8rem;
+    }
+    .hogar{
+            width: 300px;
+            height: 300px;
+        }
+        .institucionesEducativas{
+            width: 300px;
+            height: 300px;
+        }
+        .empresas{
+            width: 300px;
+            height: 300px;
+        }
+        .foto{
+            width: 100px;
+        }
+    }
     @media (min-width: 1920){
    .titulo1{
         font-size: 6rem;
     }
     .titulo2{
         font-size: 6rem;
+    }
+    .servicios{
+        font-size: 2rem;
+        padding: 10px 15px 10px 5px;
+        height: 70px;
+    }
+    .nombreCaja{
+        font-size: 2rem;
+    }
+    .hogar{
+        width: 300px;
+        height: 300px;
+    }
+    .institucionesEducativas{
+        width: 300px;
+        height: 300px;
+    }
+    .empresas{
+        width: 300px;
+        height: 300px;
+    }
+    .foto{
+        width: 140px;
     }
     }

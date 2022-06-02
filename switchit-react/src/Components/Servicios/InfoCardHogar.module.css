@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 60px 0 60px 0;
-    justify-content: space-around;
+    justify-content: center;
     height: 100vh;
 }
 .hogarUno{
@@ -121,10 +121,6 @@
     .boton{
         font-size: 1.7rem;
     }
-    .fotoHogar{
-        width: 50vh;
-        height: 50vh;
-    }
 }
 @media  (min-width: 1440px) {
     .hogarUno{
@@ -146,25 +142,33 @@
     .boton{
         font-size: 3rem;
     }
+    .fotoHogar{
+        width: 60vh;
+        height: 60vh;
+    }
 }
-
-@media (min-width: 1920){
+@media (min-width: 1920px){
     .hogarUno{
-        height: 80%;
+        justify-content: flex-end;
     }
-    .titulo{
-        font-size: 8rem;
-    }
-    .hogarTexto{
-        width: 80%;
-    }
-    .titulo2{
-        font-size: 5rem;
-    }
-    .parrafo{
-        font-size: 4rem;
-    }
-    .boton{
-        font-size: 2.5rem;
-    }
+.titulo{
+    font-size: 7rem;
+    align-items: center;
+}
+.hogarTexto{
+    width: 80%;
+}
+.titulo2{
+    font-size: 3rem;
+}
+.parrafo{
+    font-size: 3rem;
+}
+.boton{
+    font-size: 2.5rem;
+}
+.fotoHogar{
+    width: 65vh;
+    height:65vh;
+}
 }

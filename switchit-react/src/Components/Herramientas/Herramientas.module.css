@@ -1,7 +1,7 @@
 .containerHerramientas{
     background-color: #262626 ;
     overflow: hidden;
-    padding-top: 10px;
+    padding-top: 40px;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -27,10 +27,10 @@
     justify-content: space-evenly;
 }
 .iconosTecnologias .containerIcon{
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
-    align-items: center;
     margin: 20px;
+    flex-wrap: wrap;
 }
 .iconosPartners .containerIcon{
     flex-wrap: wrap;
@@ -40,17 +40,33 @@
 
 }
 .containerIcon .icon{
-    width: 80px;
-    margin: 0 20px 0 20px;
+    width: 110px;
+    margin: 0 50px 0 50px;
     }
 
 
 /* Media Queries */
-@media screen and (max-width: 770px){
-    .titulo{
+
+@media (min-width: 980px) {
+    .titulo1{
         font-size: 3rem;
     }
-    .icon{
-        width: 80px;
+}
+@media (min-width: 1440px) {
+    .titulo{
+        font-size: 4rem;
     }
+    .containerIcon .icon{
+        width: 120px;
+        margin: 0 50px 0 50px;
+    }
+    .containerHerramientas{
+        justify-content:space-evenly;
+    }
+}
+@media (min-width: 1920px){
+    .containerIcon .icon{
+        width: 130px;
+        margin: 0 60px 0 60px;
+        }
 }

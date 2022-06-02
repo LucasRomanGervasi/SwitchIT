@@ -120,3 +120,28 @@ font-style: normal;
             animation-name: bottom-line-animation-close;
         }
 }
+@media (min-width: 980px) {
+    
+}
+@media (min-width: 1440px) {
+    .containerNav{
+        height: 70px;
+    }
+    .aNav{
+        font-size: 1.5rem;
+    }
+    .boton{
+        font-size: 25px;
+    }
+    }
+@media (min-width: 1920px){
+    .containerNav{
+        height: 70px;
+    }
+    .aNav{
+        font-size: 1.5rem;
+    }
+    .boton{
+        font-size: 25px;
+    }
+    }
