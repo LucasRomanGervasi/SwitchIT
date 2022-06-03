@@ -5,10 +5,10 @@ import perfil from "./Imagenes Login-Register/perfil.png"
 export default function Login() {
     return(
             <div className={style.containerLogin}>
+            <div className={style.containerFormulario}>
             <div className={style.containerBotonAtras}>
                 <a className={style.botonAtras} href="/"><BsFillArrowLeftCircleFill/></a>
             </div>
-            <div className={style.containerFormulario}>
                 <form className={style.formulario}>
                 <h1 className={style.tituloFormulario}>Login</h1>
                     <input className={style.input} type="text" placeholder="Email"></input>

@@ -6,6 +6,8 @@
     width: 100%;
     align-items: center;
     background-image: url("./Imagenes\ Login-Register/loginfondo.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 .containerBotonAtras{
     display: flex;

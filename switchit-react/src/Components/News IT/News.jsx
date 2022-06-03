@@ -1,12 +1,13 @@
 import React from "react";
 import style from "./News.module.css"
 import  {BsCircleFill} from "react-icons/bs";
+import fotoTitulo from "./Imagenes NewsIT/fototitulo.png"
 import ImagenCard from "./Imagenes NewsIT/ImagenNews.jpg";
 
 export default function News(){
     return(
         <div className={style.containerNews}>
-            <h1 className={style.titulo}>News It</h1>
+            <h1 className={style.titulo}>News <img className={style.fototitulo} src={fotoTitulo}></img></h1>
             <div className={style.containerCard}>
                 <div data-aos="fade-up" className={style.cardUno}>
                         <div className={style.topCard}> 

@@ -6,6 +6,8 @@
     width: 100%;
     align-items: center;
     background-image: url("./Imagenes\ Login-Register/loginfondo.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 .containerBotonAtras{
     display: flex;
@@ -15,7 +17,7 @@
     color:#E3E4E5;
     font-size: 30px;
     padding: 10px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 .containerFormulario{
     display: flex;
@@ -43,7 +45,7 @@
     border-radius: 20px;
     border: none;
     height: 40px;
-    width: 100%;
+    width: 80%;
     margin-top: 20px;
     padding-left: 20px;
     outline: none;
@@ -93,3 +95,66 @@
     font-size: 15px;
     color: #FFFFFF;
 }
+/* Media Queries */
+
+@media (min-width: 1440px) {
+    .botonAtras{
+        font-size: 40px;
+    }
+    .tituloFormulario {
+        font-size: 4rem;
+    }
+    .input{ 
+        height: 60px;
+        border-radius: 50px;
+    }
+    .input::placeholder{
+        font-size: 1.5rem;
+    }
+    .containerFormulario{
+        width: 900px;
+        height: 600px;
+    }
+    .boton{
+        height: 50px;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .registrate{
+        font-size: 1.4rem;
+    }
+    .botonRegistrate{
+        font-size: 1.8rem;
+    }
+    }
+     @media (min-width:1920px){
+        .botonAtras{
+            font-size: 60px;
+        }
+        .tituloFormulario {
+            font-size: 5rem;
+        }
+        .input{ 
+            height: 90px;
+            width: 80%;
+            border-radius: 50px;
+        }
+        .input::placeholder{
+            font-size: 1.8rem;
+        }
+        .containerFormulario{
+            width: 1200px;
+            height: 800px;
+        }
+        .boton{
+            height: 80px;
+            font-size: 1.6rem;
+            width: 100%;
+        }
+        .registrate{
+            font-size: 1.8rem;
+        }
+        .botonRegistrate{
+            font-size: 2rem;
+        }
+    } 

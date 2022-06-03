@@ -38,7 +38,7 @@
 .informacion{
     text-align: left;
     color: #E3E4E5;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -111,6 +111,7 @@ font-style: normal;
     font-weight: 800;
     font-style: normal;
     font-size: 30px;
+    padding-top: 50px;
 }
 .formulario{
     display: flex;
@@ -183,7 +184,7 @@ font-style: normal;
             font-size: 2.5rem;
         }
         .informacion{
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
     }
         @media  (min-width: 1440px) {

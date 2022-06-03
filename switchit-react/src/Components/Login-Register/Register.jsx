@@ -6,10 +6,10 @@ import perfil from "./Imagenes Login-Register/perfil.png"
 export default function Register(){
     return(
         <div  className={style.containerRegister}>
+            <div className={style.containerFormulario}>
              <div className={style.containerBotonAtras}>
                 <a className={style.botonAtras} href="/Login"><BsFillArrowLeftCircleFill/></a>
             </div>
-            <div className={style.containerFormulario}>
                 <h1 className={style.tituloFormulario}>Registrate</h1>
                 <form className={style.formulario}>
             <div className={style.containerImagen}>

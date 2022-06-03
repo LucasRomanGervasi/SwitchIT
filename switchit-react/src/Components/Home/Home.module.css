@@ -5,7 +5,7 @@
 }
 .headerHome{
     height: 100%;
-    display: flex;
+    display: none;
     background-image: url("./Imagenes\ Home/headerHome.png");
     background-size: 100% 100%;
     justify-content: center;
@@ -47,7 +47,7 @@
     justify-content: center; 
     align-items: center;
     align-content: center;
-
+    padding-top: 50px;
 }
 .titulo1{
     display: flex;
@@ -245,32 +245,35 @@
             width: 100px;
         }
     }
-    @media (min-width: 1920){
+    @media (min-width: 1920px){
    .titulo1{
         font-size: 6rem;
     }
     .titulo2{
         font-size: 6rem;
     }
+    .parrafo{
+        font-size: 3rem;
+    }
     .servicios{
-        font-size: 2rem;
-        padding: 10px 15px 10px 5px;
-        height: 70px;
+        font-size: 3rem;
+        padding: 10px 25px 10px 25px;
+        height: 100px;
     }
     .nombreCaja{
-        font-size: 2rem;
+    font-size: 2rem;
     }
     .hogar{
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
     }
     .institucionesEducativas{
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
     }
     .empresas{
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
     }
     .foto{
         width: 140px;
