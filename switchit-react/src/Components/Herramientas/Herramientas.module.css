@@ -14,7 +14,7 @@
     height: 10%;
     font-family: omnes-pro, sans-serif;
     font-style: normal;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .iconosTecnologias{
     width: 100%;
@@ -29,14 +29,14 @@
 .iconosTecnologias .containerIcon{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 10px 20px 10px 20px;
     flex-wrap: wrap;
 }
 .iconosPartners .containerIcon{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
 
 }
 .containerIcon .icon{

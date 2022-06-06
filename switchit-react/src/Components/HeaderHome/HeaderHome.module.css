@@ -49,7 +49,7 @@
     align-items: center;
 }
 .cajaUl .cajaLi .containerCaja:hover{
-    background-color: rgba(0, 0, 0, 0.274);
+    background-color: rgba(0, 0, 0, 0.466);
 }
 .cajas .cajaImg{
     position:absolute;

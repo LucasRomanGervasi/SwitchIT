@@ -1,54 +1,41 @@
 .containerHerramientas{
-    background-color: #262626 ;
+    background-color:  #F6BA36; ;
     overflow: hidden;
     padding-top: 10px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .titulo{
-    color: #1DAFA5;
-    font-size: 3rem;
+    color: #FFFFFF;
+    font-size: 2.6rem;
     height: 10%;
     font-family: omnes-pro, sans-serif;
     font-style: normal;
-    margin-bottom: 40px;
+    margin: 20px ;
 }
-.iconosTecnologias{
-    width: 80%;
+
+.iconosEmpresas{
+    width: 60%;
     height: auto;
     margin: auto;
     overflow:hidden;
 }
-.iconosPartners{
-    width: 80%;
-    height: auto;
-    margin: auto;
-    overflow:hidden;
-}
-.iconosTecnologias .containerIcon{
+
+.iconosEmpresas .containerIcon{
     display: flex;
-    margin: 30px;
-    -webkit-animation: scrollTecnologias 30s  linear infinite  ;
-    animation: scrollTecnologias 30s  linear infinite ;
-    width: calc(110px * 22);
-    align-content: space-between;
-    justify-content: space-between;
-}
-.iconosPartners .containerIcon{
-    display: flex;
-    margin: 30px;
+    margin: 20px;
     -webkit-animation: scrollPartners 30s  linear  infinite  ;
-    animation: scrollPartners 30s  linear  infinite  ;
+    animation: scrollPartners 10s  linear  infinite  ;
     width: calc(110px * 12);
     
     align-content: space-between;
     justify-content: space-between; 
 }
 .containerIcon .icon{
-    width: 110px;
+    width: 170px;
     margin-right: 80px;
     }
 .containerIcon .icon img{
