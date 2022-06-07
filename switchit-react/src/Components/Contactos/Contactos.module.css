@@ -1,0 +1,268 @@
+.containerContactos{
+    display: flex;
+    height: 100vh;
+}
+.contactos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap ;
+}
+.contactosUno{
+    background-color: #262626;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+    padding: 10px 60px 0 60px;
+    justify-content: flex-end;
+}
+.titulos{
+    text-align: left;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.tituloUno{
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4rem;
+    color: #FFFFFF;
+}
+.tituloDos{
+    color: #85DAC6;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+}
+.informacion{
+    text-align: left;
+    color: #E3E4E5;
+    font-size: 1rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.informacionSwitch{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: omnes-pro, sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+.subrayado{
+    margin: 20px 0 20px 0;
+    color: #E3E4E5;
+    border: solid 1px #E3E4E5;
+    width: 70%;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.containerFacebook{
+    margin: 20px 10px 0 10px;
+    display: flex;
+    padding: 10px 10px 40px 5px;
+    background-color: #85DAC6;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.facebook{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.containerInstagram{
+    margin: 20px 10px 0 10px;
+    padding: 10px 10px 80px 10px;
+    background-color: #1DAFA5;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.instagram{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.containerLinkedin{
+    margin: 20px 10px 0 10px;
+    padding: 10px 10px 120px 10px;
+    background-color: #48569D ;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.linkedin{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.contactosDos{
+    background-color: #E3E4E5;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+    justify-content: center;
+}
+.tituloFormulario{
+    color: #1DAFA5;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+.input{
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 90%;
+    margin-top: 30px;
+    padding-left: 20px;
+    outline: none;
+}
+.input::placeholder{
+    color:#838383dc;
+    font-size: 15px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.inputMensaje::placeholder{
+    color:#838383dc;
+    font-size: 15px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.inputMensaje{
+    text-align:initial;
+    padding-bottom: 90px;
+    border-radius: 20px;
+    border: none;
+    width: 90%;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+    height: 150px;
+    outline: none;
+    resize: none;
+    font-size: 15px;
+    font-family: neue-haas-grotesk-display, sans-serif;;
+}
+.boton{
+    border: none;
+    background-color: #262626;
+    border-radius: 20px;
+    color: #E3E4E5;
+    font-size: 15px;
+    padding: 2px 20px 2px 20px;
+    justify-content: end;
+    height: 40px;
+    width:100px;
+    text-align: center;
+    align-items: center;
+}
+/* Media Queries */ 
+    @media (min-width: 980px) {
+        .titulos{
+            margin-top:180px;
+        }
+        .tituloUno{
+            font-size: 3.5rem;
+        }
+        .tituloDos{
+            font-size: 2.5rem;
+        }
+        .informacion{
+            font-size: 1.5rem;
+        }
+    }
+        @media  (min-width: 1440px) {
+        .titulos{
+            margin-top:180px;
+        }
+        .tituloUno{
+            font-size: 4rem;
+        }
+        .tituloDos{
+            font-size: 3rem;
+        }
+        .informacion{
+            font-size: 2.5rem;
+        }
+        .informacionSwitch{
+            font-size: 3rem;
+        }
+        .contactosUno{
+            justify-content: space-between;
+        }
+        .containerFacebook{
+            padding: 20px 20px 80px 20px;
+        }
+        .containerInstagram{
+            padding: 20px 20px 120px 20px;
+        }
+        .containerLinkedin{
+            padding: 20px 20px 180px 20px;
+        }
+        .contactosDos{
+            justify-content: center;
+        }   
+        .tituloFormulario{
+            font-size: 3rem;
+        }
+        .input{
+            height: 60px;
+        }
+        .input::placeholder{
+            font-size: 1.6rem;
+        }
+        .inputMensaje::placeholder{
+            font-size: 1.6rem;
+        }
+        .boton{
+            font-size: 1.8rem;
+            width: 150px;
+            height: 50px;
+        }
+    }
+        
+        @media (min-width: 1920px){
+        .institucionesUno{
+            height: 80%;
+        }
+        .titulo{
+            font-size: 8rem;
+        }
+        .institucionesTexto{
+            width: 80%;
+        }
+        .titulo2{
+            font-size: 5rem;
+        }
+        .parrafo{
+            font-size: 4rem;
+        }
+        .boton{
+            font-size: 2rem;
+        }
+        .linkedin{
+            font-size: 50px; 
+        }
+        .instagram{
+            font-size: 50px; 
+        }
+        .facebook{
+           font-size: 50px; 
+        }
+        }

@@ -1,0 +1,160 @@
+.containerLogin{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-image: url("./Imagenes\ Login-Register/loginfondo.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.containerBotonAtras{
+    display: flex;
+    width: 100%;
+}
+.botonAtras{
+    color:#E3E4E5;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 0px;
+}
+.containerFormulario{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+    justify-content: center;
+    background-color:  #1DAFA5;
+    margin: 30px 30px 30px 30px;
+}
+.formulario{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.tituloFormulario{
+    color: #E3E4E5;
+    font-family: omnes-pro, sans-serif;
+}
+.input{
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 80%;
+    margin-top: 20px;
+    padding-left: 20px;
+    outline: none;
+}
+.input::placeholder{
+    color:#838383dc;
+    font-size: 15px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.boton{
+    border: none;
+    background-color: #262626;
+    border-radius: 20px;
+    color: #E3E4E5;
+    font-size: 15px;
+    padding: 2px 20px 2px 20px;
+    height: 40px;
+    width:100px;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+
+}
+.containerRegistrate{
+    display: flex;
+    justify-content: normal;
+    height: 20%;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.registrate{
+    justify-content: end;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 15px;
+    color: #E3E4E5;
+    text-align: left;
+    margin: 5px;
+}
+.botonRegistrate{
+    text-decoration: none;
+    justify-content: end;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+/* Media Queries */
+
+@media (min-width: 1440px) {
+    .botonAtras{
+        font-size: 40px;
+    }
+    .tituloFormulario {
+        font-size: 4rem;
+    }
+    .input{ 
+        height: 60px;
+        border-radius: 50px;
+    }
+    .input::placeholder{
+        font-size: 1.5rem;
+    }
+    .containerFormulario{
+        width: 900px;
+        height: 600px;
+    }
+    .boton{
+        height: 50px;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .registrate{
+        font-size: 1.4rem;
+    }
+    .botonRegistrate{
+        font-size: 1.8rem;
+    }
+    }
+     @media (min-width:1920px){
+        .botonAtras{
+            font-size: 60px;
+        }
+        .tituloFormulario {
+            font-size: 5rem;
+        }
+        .input{ 
+            height: 90px;
+            width: 80%;
+            border-radius: 50px;
+        }
+        .input::placeholder{
+            font-size: 1.8rem;
+        }
+        .containerFormulario{
+            width: 1200px;
+            height: 800px;
+        }
+        .boton{
+            height: 80px;
+            font-size: 1.6rem;
+            width: 100%;
+        }
+        .registrate{
+            font-size: 1.8rem;
+        }
+        .botonRegistrate{
+            font-size: 2rem;
+        }
+    } 

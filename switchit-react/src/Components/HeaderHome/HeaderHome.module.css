@@ -1,0 +1,142 @@
+.containerHeaderHome{
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+}
+.cajasdos{
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.cajasuno{
+    position: absolute;
+     height: 80vh;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+    overflow: hidden;
+}
+.cajaUl{
+    width: 100vh;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(0,0,0,.2);
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(214, 214, 214, 0.486);
+}
+.cajaUl .cajaLi{
+    list-style: none;
+    width: 100%;
+}
+.cajaUl .cajaLi .containerCaja{
+    display: flex;
+    flex-direction: column;
+    color:  #E3E4E5;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+    font-size: sans-serif;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cajaUl .cajaLi .containerCaja:hover{
+    background-color: rgba(0, 0, 0, 0.274);
+}
+.cajas .cajaImg{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    z-index: 0;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: sans-serif;
+}
+.cajaTitulo{
+    font-size: 1.6rem;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.cajaUl .cajaLi .cajaParrafo{
+    width: 90%;
+    font-size: 1.3rem;
+    text-align: left;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    max-width: 10;
+    -webkit-transition: max-width 0.5s ease-out;
+    transition: max-width 0.5s ease-out;
+    font-weight: 400;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cajaUl .cajaLi .cajaNoParrafo{
+    font-size: 0;
+}
+.cajaUl .cajaLi .cajaParrafo2{
+    text-decoration: none;
+    color:  #E3E4E5;
+    font-size: 1.3rem;
+    text-align: left;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-style: normal;
+}
+.cajaUl .cajaLi .cajaNoParrafo2{
+    font-size: 0;
+    text-align: left;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cajaA{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    text-align: left;
+}
+.cajaIcon{
+    padding: 5px;
+    font-size: 1.8rem;
+}
+/* Media Queries */
+
+@media (min-width: 1440px) {
+    .cajaParrafo{
+        font-size: 1.6rem;
+    }   
+    .cajaParrafo2{
+        font-size: 1.6rem;
+    }
+    .cajaIcon{
+        font-size: 1.6rem;
+    }
+    }
+     @media (min-width:1920px){
+        .cajaParrafo{
+            font-size: 1.8rem;
+        }   
+        .cajaParrafo2{
+            font-size: 1.8rem;
+        }
+        .cajaIcon{
+            font-size: 1.8rem;
+        } 
+    } 

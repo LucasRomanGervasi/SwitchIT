@@ -1,0 +1,110 @@
+.containerNews{
+    display: flex;
+    background-image: url("./Imagenes\ NewsIT/fondo.png");
+    padding: 50px 0 80px 0;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.fototitulo{
+    width: 90px;
+}
+.titulo{
+    color: #1DAFA5;
+    font-size: 60px;
+    margin-bottom: 80px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.containerCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cardUno{
+    background-color: #85DAC6;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+.cardDos{
+    background-color: #85DAC6;
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 30px;
+    height: 250px;
+    padding-bottom: 5px;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+}
+.cardTres{
+    background-color: #85DAC6;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    padding-bottom: 5px;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+}
+.bottomCard{
+}
+.ImagenCard{
+    width: 100%;
+    height: 220px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.topCard{
+    display: flex;
+    background-color: #1DAFA5;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    padding: 10px;
+}
+.circulo{
+    margin-left: 3px;
+    font-size: 5px;
+    color: #85DAC6;
+    align-items: flex-start;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 980px) {
+    .titulo1{
+        font-size: 3rem;
+    }
+}
+@media (min-width: 1440px) {
+    .titulo{
+        font-size: 5rem;
+    }
+    .ImagenCard{
+        height: 350px;
+    }
+    .cardUno{
+        width: 400px;
+        height: 400px;
+    }
+    .cardDos{
+        width: 400px;
+        height: 400px;
+    }
+    .cardTres{
+        width: 400px;
+        height: 400px;
+    }
+    .topCard{
+        padding: 10px;
+    }
+    .circulo{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    }
+@media (min-width: 1920px){
+    
+    }

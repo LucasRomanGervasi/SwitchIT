@@ -5,17 +5,19 @@ import  {BsArrowRight, BsHouseDoor} from "react-icons/bs";
 
 export  default function infoCardHogar(){
     return(
-        <div className={style.containerHogar}>
+        <div id="serviciosHogar" className={style.containerHogar}>
             <div className={style.hogarUno}>
+            <div className={style.hogarTexto}>
             <h1 className={style.titulo}>Hogar</h1>
             <h2 className={style.titulo2}> ¿Buscás tener una casa inteligente? </h2>
             <p className={style.parrafo}> Nuestro objetivo es que tengas el control de todos los
             elementos de tu casa, fomentando la conectividad
             constante con tu hogar.</p>
             </div>
+            </div>
             <div className={style.hogarDos}>
                 <img alt="casa" className={style.fotoHogar} src={hogar}></img>
-                <a className={style.boton}>Conocé más <BsArrowRight/></a>
+                <a href="Hogar" className={style.boton}>Conocé más <BsArrowRight/></a>
             </div>
         </div>
     )

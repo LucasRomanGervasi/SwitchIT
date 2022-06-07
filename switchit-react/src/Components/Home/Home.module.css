@@ -1,0 +1,281 @@
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    
+}
+.headerHome{
+    height: 100%;
+    display: none;
+    background-image: url("./Imagenes\ Home/headerHome.png");
+    background-size: 100% 100%;
+    justify-content: center;
+    height: 100vh;
+    line-height:90px;
+}
+.Soluciones{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    color: #E3E4E5;
+    letter-spacing: 0px;
+}
+.SolucionesDos{
+    display: flex;
+    align-items: center;
+    font-size: 180px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #E3E4E5;
+}
+.presentacion{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+}
+.presentacion1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+}
+.titulo1{
+    display: flex;
+    color: #262626;
+    width: 75%;
+    font-size: 45px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    flex-direction: column;
+    text-align: left;
+    }
+.titulo2{
+    display: flex;
+    color: #1DAFA5;
+    width: 75%;
+    text-align: left;
+    font-size: 50px;
+    margin-top: 0px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.parrafo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    margin: 1rem 0 2rem;
+    color:#262626;
+    font-size: 22px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 75%;
+    text-align: left;
+}
+
+.presentacion2{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.botonServicios{
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+    margin-bottom: 20px;
+}
+
+.servicios{
+    color: rgb(228, 224, 224);
+    font-size: 25px;
+    align-items: center;
+    border-radius: 25px;
+    padding: 5px 10px 5px 10px;
+    background-color:  #1DAFA5;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    height: 50px;
+    font-style: normal;
+    justify-content: center;
+}
+
+.foto{
+    width: 70px;
+    display: flex;
+}
+
+.cajaServicios{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.nombreCaja{
+    display: flex;
+    font-size: 15px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.hogar{
+    align-items: center;
+    width: 200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #838383dc;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+    margin: 20px;
+    text-decoration: none;
+}
+.hogar:hover{
+    transform: scale(1.09);
+    transition: 1.5s;
+}
+.institucionesEducativas{
+    text-decoration: none;
+    width: 200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    color: #838383dc;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+}
+.institucionesEducativas:hover{
+    transform: scale(1.09);
+    transition: 1.5s;
+}
+.empresas{
+    width: 200px;
+    text-decoration: none;
+    height: 180px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #838383dc;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.521);
+}
+.empresas:hover{
+    transform: scale(1.09);
+    transition: 1.5s;
+}
+.InfoCard{
+    margin-top: 50px;
+}
+
+.divNoneHogar{
+    display: none;
+}
+.divHogar{
+    display: flex;
+    flex-direction: column;
+}
+.divNoneInstituciones{
+    display: none;
+}
+.divInstituciones{
+    display: flex;
+    flex-direction: column;
+}
+.divNoneEmpresas{
+    display: none;
+}
+.divEmpresas{
+    display: flex;
+    flex-direction: column;
+}
+ 
+/* Media Queries */
+
+@media (min-width: 980px) {
+    .titulo1{
+        font-size: 3rem;
+    }
+}
+@media (min-width: 1440px) {
+    .titulo1{
+        font-size: 4rem;
+    }
+    .titulo2{
+        font-size: 4rem;
+    }
+    .parrafo{
+        font-size: 2rem;
+    }
+    .servicios{
+        font-size: 2rem;
+        padding: 10px 15px 10px 5px;
+        height: 70px;
+    }
+    .nombreCaja{
+        font-size: 1.8rem;
+    }
+    .hogar{
+            width: 300px;
+            height: 300px;
+        }
+        .institucionesEducativas{
+            width: 300px;
+            height: 300px;
+        }
+        .empresas{
+            width: 300px;
+            height: 300px;
+        }
+        .foto{
+            width: 100px;
+        }
+    }
+    @media (min-width: 1920px){
+   .titulo1{
+        font-size: 6rem;
+    }
+    .titulo2{
+        font-size: 6rem;
+    }
+    .parrafo{
+        font-size: 3rem;
+    }
+    .servicios{
+        font-size: 3rem;
+        padding: 10px 25px 10px 25px;
+        height: 100px;
+    }
+    .nombreCaja{
+    font-size: 2rem;
+    }
+    .hogar{
+        width: 400px;
+        height: 400px;
+    }
+    .institucionesEducativas{
+        width: 400px;
+        height: 400px;
+    }
+    .empresas{
+        width: 400px;
+        height: 400px;
+    }
+    .foto{
+        width: 140px;
+    }
+    }

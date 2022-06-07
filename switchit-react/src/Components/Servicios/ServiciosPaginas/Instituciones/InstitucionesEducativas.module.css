@@ -1,0 +1,36 @@
+.containerInstitucionesEducativas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.headerInstituciones{
+    display: flex;
+    background-image: url("./ImagenesInstituciones/Instituciones.png");
+    background-size: 100% 100%;
+    justify-content: center;
+    height: 100vh;
+    line-height:90px;
+    
+}
+.Instituciones{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    justify-content: center;
+    color: #E3E4E5;
+    letter-spacing: 0px;
+}
+.Servicios{
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E3E4E5;
+}

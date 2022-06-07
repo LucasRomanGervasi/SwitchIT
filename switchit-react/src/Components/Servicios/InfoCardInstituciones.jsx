@@ -5,8 +5,9 @@ import mochila from "./FotosIconos/mochila.gif"
 
 export default function infoCardInstituciones() {
     return(
-        <div className={style.containerInstituciones}>
+        <div id="serviciosInstitutos" className={style.containerInstituciones}>
             <div className={style.institucionesUno}>
+            <div className={style.institucionesTexto}>
             <h1 className={style.titulo}>Instituciones Educativas</h1>
             <h2 className={style.titulo2}>¿Buscás digitalizar tu institución?</h2>
             <p className={style.parrafo}>Preparamos aulas híbridas e implementamos Google For
@@ -14,9 +15,10 @@ export default function infoCardInstituciones() {
             óptima en el dictado de clases, tanto en la presencialidad
             como en la virtualidad.</p>
             </div>
+            </div>
             <div className={style.institucionesDos}>
                 <img alt="mochila" className={style.fotoInstituciones} src={mochila}></img>
-                <a className={style.boton}>Conocé más <BsArrowRight/></a>
+                <a href="InstitucionesEducativas" className={style.boton}>Conocé más <BsArrowRight/></a>
             </div>
         </div>
     )
